@@ -14,8 +14,8 @@ export default function Login() {
     console.log("Login Data:", form);
     localStorage.removeItem("toekn")
     localStorage.setItem("token", JSON.stringify(form))
-   if (form.email == "maged.atef.arteen@gmail.com" &&
-            form.password == "1111"
+   if (form.email == "admin@gmail.com" &&
+            form.password == "admin"
         ){
             moveTo('/layout')
         }
@@ -24,6 +24,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+<p>email: admin@gmail.com, password:admin</p>
       <form
         onSubmit={handleSubmit}
         className="bg-white w-full max-w-sm p-6 rounded-xl shadow-lg space-y-4"
@@ -66,3 +67,4 @@ export default function Login() {
     </div>
   );
 }
+
