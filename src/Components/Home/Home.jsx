@@ -7,7 +7,7 @@ export default function Home() {
         <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-br from-blue-50 to-blue-200 p-6">
             <div className="text-center space-y-4">
                 <h1 className="text-3xl md:text-5xl font-bold text-blue-800">
-                    Dibba Hospital Laboratory
+                     Hospital Laboratory System
                 </h1>
 
                 <p className="text-gray-600 text-sm md:text-lg max-w-md mx-auto">
@@ -24,9 +24,10 @@ export default function Home() {
             </div>
 
             <div className="info">
-                <h2 className="bg-emerald-300 px-2 py-3 rounded-xl font-semibold m-5">Supervised By : Rajaee Shurrab</h2>
+             
                 <p className="m-5">Design By: <span className="bg-red-200 p-2 rounded-xl "> Maged Tanious</span></p>
             </div>
         </div>
     );
 }
+
