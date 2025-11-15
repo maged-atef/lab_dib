@@ -23,7 +23,7 @@ export default function Header(props) {
                     <h1 className="text-2xl font-black text-slate-800 dark:text-white">
                         Dashboard
                     </h1>
-                    <p>welcome back, Dr Rajaee ! Here's what's happening today</p>
+                    <p>welcome back,! Here's what's happening today</p>
                 </div>
 
             </div>
@@ -70,7 +70,7 @@ export default function Header(props) {
                     <img src={userImg} alt="user" className="w-8 h-8 rounded-full ring-2 ring-blue-500" />
 
                     <div className="hidden md:block">
-                        <p className="text-sm font-medium text-slate-500 dark:text-slate-400">Rajaee Shurrab</p>
+                        <p className="text-sm font-medium text-slate-500 dark:text-slate-400">userAdmin</p>
                         <p className="text-xs text-slate-500 dark:text-slate-400">
                             Adminstrator
                         </p>
@@ -82,4 +82,5 @@ export default function Header(props) {
         </div>
 
     </div>
+
 }
