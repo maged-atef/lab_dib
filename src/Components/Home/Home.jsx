@@ -25,9 +25,10 @@ export default function Home() {
 
             <div className="info">
              
-                <p className="m-5">Design By: <span className="bg-red-200 p-2 rounded-xl "> Maged Tanious</span></p>
+                <p className="m-5">Design By: <span className="bg-red-200 p-2 rounded-xl "> Mr.Green </span></p>
             </div>
         </div>
     );
 }
+
 
