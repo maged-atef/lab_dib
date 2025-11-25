@@ -14,7 +14,7 @@ export default function Login() {
     console.log("Login Data:", form);
     localStorage.removeItem("toekn")
     localStorage.setItem("token", JSON.stringify(form))
-   if (form.email == "maged.atef.arteen@gmail.com" &&
+   if (form.email == "admin@gmail.com" &&
             form.password == "1111"
         ){
             moveTo('/layout')
@@ -43,7 +43,7 @@ export default function Login() {
             required
           />
         </div>
-  <p>maged.atef.arteen@gmail.com</p>
+  <p>admin@gmail.com</p>
         <div className="space-y-1">
           <label className="text-sm font-medium">Password</label>
           <input
@@ -67,5 +67,6 @@ export default function Login() {
     </div>
   );
 }
+
 
 
